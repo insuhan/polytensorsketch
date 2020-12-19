@@ -3,13 +3,13 @@ MATLAB implementation for [Polynomial Tensor Sketch for Element-wise Function of
 
 ## Installation
 Run ```install.m``` to compile mex files in ```./mexfunctions``` and add paths:
-```console
+```matlab
 >> install
 ```
 
 ## Usage
 Run ```run_kernel_approx.m``` for testing the kernel approximation task:
-```console
+```matlab
 >> run_kernel_approx
 segment dataset is loaded, n=2310, d=19
 PTS (coreset) error: 0.001349
