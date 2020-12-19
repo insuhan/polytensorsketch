@@ -3,6 +3,8 @@ function run_kernel_approximation(dataset)
     if nargin < 1
         dataset = 'synthetic';
         X = load_dataset(dataset, 1000, 50);
+    elseif strcmpi(dataset, 'synthetic')
+        X = load_dataset(dataset, 1000, 50);
     else
         X = load_dataset(dataset, -1, -1);
     end

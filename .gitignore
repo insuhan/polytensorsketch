@@ -108,3 +108,4 @@ latexsource
 *.py
 test_*
 *.mexa*
+*~

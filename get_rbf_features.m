@@ -4,8 +4,8 @@ function Z = get_rbf_features(X, degree, sketch_dim, method, sampling, num_clust
         func = @(x) exp(2 * x);
         xsum = sum(X.^2, 2);
 
-        c_params.sampling = 'kcenter';
-        c_params.num_clusters = 10;
+        c_params.sampling = sampling;
+        c_params.num_clusters = num_clusters;
         c_params.xmin = -max(xsum);
         c_params.xmax = max(xsum);
         c_params.xx = X;
