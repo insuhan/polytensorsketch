@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+latexsource
+.gitignore
+*.py
+test_*
+*.mexa*
